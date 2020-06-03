@@ -1,0 +1,25 @@
+
+MongoDB.com : acc: User : pranav.kaushik0090@gmail.com, pwd: Mongodb0090
+MongoDB.com - Register : User: pranav0090: pwd: Mongo0090 (user password not account password, both should not be same)
+Create Clustor >> aws + M0
+security : username, IP connection, connection
+
+//copy below String key to coonect to mongodb
+mongodb+srv://pranav0090:<password>@awsdevcluster-3lsbr.mongodb.net/test?retryWrites=true&w=majority
+
+change end of line eol to /n (LF) in vscode editor
+
+npm init
+npm install express express-validator bcrypt config gravatar jsonwebtoken mongoose request
+
+npm install -D nodemon concurrently
+
+package.json >>
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+
+
+// to run server using nodemon module, server.js should be in root dir
+npm run server
